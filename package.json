@@ -1,0 +1,25 @@
+{
+  "name": "pmtoolangular",
+  "version": "1.0.0",
+  "description": "Angular version of the PM tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durgapanda/angularapp.git"
+  },
+  "keywords": [
+    "angular",
+    "project",
+    "management",
+    "mean"
+  ],
+  "author": "durga panda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durgapanda/angularapp/issues"
+  },
+  "homepage": "https://github.com/durgapanda/angularapp#readme"
+}

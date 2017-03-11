@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PM Tool Angular</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/dps.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header template starts-->
+    <header ng-include="'templates/header.html'"></header>
+    <!--header template ends-->
+
+    <!--content view starts -->
+    <div ui-view></div>
+    <!--content view ends -->
+
+    <!--footer starts-->
+    <footer ng-include="'templates/footer.html'"></footer>
+    <!--footer ends-->
+
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-ui-router.js"></script>
+    <script src="lib/gen/jquery.min.js"></script>
+    <script src="lib/gen/bootstrap.min.js"></script>
+    <script src="js/practise.js"></script>
+    <!--<script src="js/app.js"></script>-->
+    <script src="js/controllers.js"></script>
+</body>
+
+</html>
